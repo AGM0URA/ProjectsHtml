@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+background-image:url("./Imagens/backgrond.jfif"); background-repeat:no-repeat; height:10px;
+background-attachment:fixed;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0 ;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.logo-Texto{
+    margin-left: 20px;
+    color: black;
+}
+
+
+.Container-logo{
+    display: flex;
+    align-items: center;    
+}
+
+
+.Container-logo li{
+    display: inline-block;
+    margin:  0 20px;
+}
+
+
+.Container-logo li a{
+    font-size: 34px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+
+.menu li{
+    display: inline-block;
+    margin:  0 20px;
+}
+
+
+.menu li a{
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    border-radius: 10px;
+
+}
+
+
+.menu li a:hover{
+    background-color: rgba(100, 100, 100, 0.5);
+}
