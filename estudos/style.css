@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Noto+Sans+JP:wght@600&family=Young+Serif&display=swap');
+
+
+.paragrafo-1{
+    font-family: 'Dela Gothic One', cursive;    
+    font-weight: 700;
+     font-size: 20px;
+}
+.paragrafo-2{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.paragrafo-3{
+    font-family: 'Young Serif', serif;
+
+}
+
